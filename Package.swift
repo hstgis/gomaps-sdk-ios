@@ -9,15 +9,14 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "gomaps-sdk-ios",
-            targets: ["gomaps-sdk-ios"]),
+            targets: ["VNPTMap"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "gomaps-sdk-ios"),
-        .testTarget(
-            name: "gomaps-sdk-iosTests",
-            dependencies: ["gomaps-sdk-ios"]),
+        .binaryTarget(
+            name: "VNPTMap",
+            url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.0.0/VNPTMap.xcframework.zip",
+            checksum: "d777e1568832edba1ab6dcbc1d270a32b86ba20cb9b281c699bde828dcdfc7a1")
     ]
 )
