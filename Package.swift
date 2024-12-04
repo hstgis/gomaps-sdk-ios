@@ -17,6 +17,6 @@ let package = Package(
         .binaryTarget(
             name: "VNPTMap",
             url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.0.1/VNPTMap.xcframework.zip",
-            checksum: "cd38d9656ec8560bdb0d270f974652ad87d8b02f5b25f5f5df2e167285a3ae4e")
+            checksum: "49bb64afc3b4c8a2d64111664b1212eafc0be0482467ac28478e8c9fddc702b7")
     ]
 )
