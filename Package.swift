@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9.0
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "VNPTMap",
-            url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.0.0/VNPTMap.xcframework.zip",
-            checksum: "d777e1568832edba1ab6dcbc1d270a32b86ba20cb9b281c699bde828dcdfc7a1")
+            url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.0.1/VNPTMap.xcframework.zip",
+            checksum: "cd38d9656ec8560bdb0d270f974652ad87d8b02f5b25f5f5df2e167285a3ae4e")
     ]
 )
