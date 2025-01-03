@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "VNPTMap",
-            url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.0.1/VNPTMap.xcframework.zip",
-            checksum: "49bb64afc3b4c8a2d64111664b1212eafc0be0482467ac28478e8c9fddc702b7")
+            url: "https://github.com/hstgis/gomaps-sdk-ios-swift/releases/download/v1.1.0-pre/VNPTMap.xcframework.zip",
+            checksum: "b41dc8edbef26616d78b230ba3337ba2195637c2fc6549c84c4b25584cf65a72")
     ]
 )
